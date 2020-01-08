@@ -1,11 +1,11 @@
 package main
 
 import(
+    "fmt"
     "context"
-    pb "grpc-helloworld/hellowrold"
+    pb "aplum.com/helloworld"
     "net"
     "google.golang.org/grpc"
-    "google.golang.org/grpc/reflection"
 )
 
 const(
